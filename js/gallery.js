@@ -64,7 +64,7 @@ gallery.addEventListener('click', event => {
         // Використання basicLightbox для створення модального вікна
         const instance = basicLightbox.create(`
             <div class="modal-overlay">
-                <img src="${largeImageUrl}" width="900">
+                <img src="${largeImageUrl}" width="1280">
             </div>
         `);
         instance.show();
