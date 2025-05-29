@@ -68,6 +68,6 @@ gallery.addEventListener('click', event => {
             </div>
         `);
         instance.show();
-        instance.element().addEventListener('click', instance.close);
+        instance.element().addEventListener('click', () => instance.close());
     }
 });
